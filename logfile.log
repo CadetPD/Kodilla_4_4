@@ -1,0 +1,25 @@
+2021-11-09 13:25:02,901 INFO Session init.
+2021-11-09 13:25:08,330 INFO Curiosity is the first step to hell :D
+2021-11-09 13:25:21,365 INFO User input in progress.
+2021-11-09 13:25:28,536 INFO Printing result.
+2021-11-09 13:25:33,239 INFO Next calculation in current session
+2021-11-09 13:25:33,240 INFO User input in progress.
+2021-11-09 13:25:47,707 WARNING Wrong input found on nums.index(value).Input correct variable (number) request.
+2021-11-09 13:25:53,863 WARNING Wrong input found on nums.index(value).Input correct variable (number) request.
+2021-11-09 13:26:01,379 INFO Printing result.
+2021-11-09 13:26:11,407 INFO Next calculation in current session
+2021-11-09 13:26:11,407 INFO User input in progress.
+2021-11-09 13:26:19,031 INFO Printing result.
+2021-11-09 13:26:19,043 ERROR ZeroDivisionError, Div
+2021-11-09 13:26:42,592 INFO Next calculation in current session
+2021-11-09 13:26:42,592 INFO User input in progress.
+2021-11-09 13:26:49,447 INFO Printing result.
+2021-11-09 13:26:49,447 ERROR ZeroDivisionError, Expo
+2021-11-09 13:27:14,661 INFO Next calculation in current session
+2021-11-09 13:27:14,661 INFO User input in progress.
+2021-11-09 13:27:21,769 INFO Printing result.
+2021-11-09 13:27:21,769 ERROR ZeroDivisionError, Root
+2021-11-09 13:27:28,719 INFO Next calculation in current session
+2021-11-09 13:27:28,720 INFO User input in progress.
+2021-11-09 13:27:35,622 INFO Printing result.
+2021-11-09 13:27:38,779 INFO End of program, runs correctly
