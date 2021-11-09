@@ -49,7 +49,6 @@ print("Możesz wybrać rodzaj kalkulatora:\n1. Zwykły\n2. Z bajerem ;)\n")
 calc_type = input("Wybierz swój kalkulator :) : ")
 
 def calc():
-
     while True:
         logging.info("User input in progress.")
         def user_input_choice():
@@ -81,6 +80,7 @@ def calc():
                 nums = [float(value) for value in nums]
                 return nums
             nums = user_input_multi_nums()
+            
         else:
             def user_input_two_nums():
             
@@ -93,7 +93,7 @@ def calc():
                     descr.extend(des_2)
 
                 while True:
-                    num1 = float(input(f"Podaj liczbę{descr[0]}"))
+                    num1 = input(f"Podaj liczbę{descr[0]}")
                     try:
                         float(num1)
                         break
@@ -101,13 +101,15 @@ def calc():
                         logging.warning("Wrong input: word or letter instead of number.Input correct variable (number) request.")
                         print("To nie jest liczba!")
                 while True:
-                    num2 = float(input(f"Podaj liczbę{descr[1]}\n"))
+                    num2 = input(f"Podaj liczbę{descr[1]}")
                     try:
                         float(num2)
                         break
                     except:
                         logging.warning("Wrong input: word or letter instead of number.Input correct variable (number) request.")
                         print("To nie jest liczba!")
+                num1 = float(num1)
+                num2 = float(num2)
                 return num1, num2
             num1, num2 = user_input_two_nums()
 
